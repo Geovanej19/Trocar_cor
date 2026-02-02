@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --cor-bg: purple;
+}
+
 body {
     height: 100vh;
     display: flex;
@@ -11,4 +15,8 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 12;
+}
+
+.cor {
+    background-color: var(--cor-bg);
 }
